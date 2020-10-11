@@ -32,6 +32,11 @@ const ContentStyles = styled.div`
   }
 `;
 
+export const PageDetails = styled.div`
+  margin-top: 5em;
+  padding-bottom: 5em;
+`;
+
 export default function Layout({ children }) {
   return (
     <>
@@ -41,7 +46,7 @@ export default function Layout({ children }) {
         <div className="sidebar">
           <div className="sidebar-container">
             <Nav />
-            {children}
+            <PageDetails>{children}</PageDetails>
           </div>
         </div>
         <div className="main">

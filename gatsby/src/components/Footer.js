@@ -2,9 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 
 const FooterStyles = styled.footer`
+  width: 100vw;
+
   .solid-footer {
     color: rgba(255, 255, 255, 0.7);
     background-color: var(--black);
+    font-size: 0.7em;
+    line-height: 1.5;
+    padding: 3em 2rem;
   }
 `;
 
